@@ -54,7 +54,7 @@ func resolveURL(baseURL *url.URL, href string) string {
 }
 
 func main() {
-	urls, err := getAllURLs("https://example.com")
+	urls, err := getAllURLs("https://stackoverflow.com/")
 	if err != nil {
 		log.Fatal(err)
 	}
